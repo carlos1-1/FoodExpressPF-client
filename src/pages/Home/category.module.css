@@ -1,0 +1,52 @@
+.categoryNav{
+  vertical-align: auto;
+  position: sticky;
+  top: 0px;
+  height: 60px;
+  background-color: #ffffffcf;
+  z-index: 100;
+}
+
+.categoryNavContent{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+.buttonFiltros {
+  color: blac;
+  background-color: #e0e0e000;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px;
+  font-size: 17px;
+  border-color: orange;
+}
+
+.buttonFiltros :hover {
+  transform: scale(1.1);
+}
+
+@media (max-width:1024px){
+  .categoryNav{
+    height: 40px;
+  }
+  .categoryNavContent{
+    font-size: 0.8rem;
+  }
+  .buttonFiltros{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:420px){
+  .categoryNavContent{
+    font-size: 0.7rem;
+  }
+  .buttonFiltros{
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,11 @@
+.cart_notif {
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 26, 26);
+    border-radius: 50px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    font-size: 15px;
+    border-color: rgb(67, 9, 9);
+    padding-right: 5px;
+}

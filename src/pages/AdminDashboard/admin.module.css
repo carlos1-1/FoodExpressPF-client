@@ -1,0 +1,20 @@
+.adminContainer{
+  margin: 20px;
+  /* padding-top: 100px; */
+  padding: 100px 0 20px;
+}
+
+.firstPanel{
+  display:flex;
+  justify-content: space-between;
+
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #00000011;
+}
+
+.stats{
+  width: 30%;
+  text-align: center;
+}

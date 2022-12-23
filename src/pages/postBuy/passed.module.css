@@ -1,0 +1,100 @@
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-image: url(https://res.cloudinary.com/dbepwtmru/image/upload/v1669046736/wooden-table-top-with-rustic-interior-background-free-photo_njp5h0.jpg);
+    height: 100vh;
+    background-size: 215vh;
+}
+
+.recipt_container{
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    border: 3px solid #00000092;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+}
+
+.green_check{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+}
+
+.recipt_text{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 100%;
+}
+
+.alignleft {
+	float: left;
+    text-align: left;
+}
+.alignright {
+	float: right;
+    text-align: right;
+}
+
+.home_button{
+    display: flex;
+    text-align: center;
+    font-size: 10px;  
+    margin: auto;
+    background-color: #08b110;
+    color: #F9F5F0;
+    width: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 44px;
+    padding: 0.8rem;
+    margin-bottom: 60px;
+}
+
+.home_button:hover{
+    background-color: #67ff38;
+    color: #262626;
+}
+
+/* Denegated = */
+
+.error_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+}
+
+.denegated_button{
+    display: flex;
+    text-align: center;
+    font-size: 10px;  
+    margin: auto;
+    background-color: #b10808;
+    color: #F9F5F0;
+    width: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 44px;
+    padding: 0.8rem;
+    margin-bottom: 60px;
+}
+
+.denegated_button:hover{
+    background-color: #ff9898;
+    color: #262626;
+}

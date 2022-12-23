@@ -1,0 +1,15 @@
+.foodCard{
+    width: 10%;
+    margin: 10px;
+}
+
+.cardsConteiner{
+ display: flex;
+ flex-direction: row;  
+ 
+}
+
+
+.Ord1{
+    text-align: center;
+}

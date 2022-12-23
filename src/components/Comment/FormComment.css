@@ -1,0 +1,44 @@
+.container {
+    background-color: rgba(255, 166, 0, 0.37);
+    border-radius: 15px;
+    width: 290px;
+}
+
+.rating {
+    display: inline-flex;
+}
+
+.inputComnet {
+    background-color: rgba(255, 255, 255, 0.822);
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.buttonSend {
+    background-color: rgba(255, 227, 149, 0.822);
+    border-radius: 15px;
+    border: none;
+    color: orange;
+    padding: 5px;
+    margin: 5px;
+}
+
+.buttonSend:hover {
+    background-color: rgba(255, 187, 86, 0);
+    transition: 1s;
+    scale: 1.4;
+}
+
+.star {
+    color: orange;
+    margin: 10px;
+}
+
+.number {
+    background-color: aliceblue;
+    color: orange;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}

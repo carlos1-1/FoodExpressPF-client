@@ -1,0 +1,38 @@
+.contTables {
+    border-radius: 15px;
+    border: 2px;
+    color: orange;
+    display: inline-flex;
+    align-content: space-between;
+    margin: 20px;
+
+}
+
+.btn12 {
+    background-color: aliceblue;
+    border-radius: 15px;
+    border-color: orange;
+    color: orange;
+    margin: 10px;
+    padding-inline: 8px;
+}
+
+.btn12:hover {
+    background-color: orange;
+    color: aliceblue;
+}
+
+.btn12:active {
+    background-color: aliceblue;
+    color: orange;
+}
+
+.containerFilter {
+    display: flex;
+    align-content: center;
+}
+
+.iNum {
+    border-radius: 15px;
+    border-color: orange;
+}

@@ -1,0 +1,15 @@
+.saveDasch{
+    text-align: start;
+   
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .saveDasch{
+        text-align: center;
+        padding-left: 70px;
+    }
+
+  
+}

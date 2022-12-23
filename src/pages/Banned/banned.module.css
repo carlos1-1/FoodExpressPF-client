@@ -1,0 +1,16 @@
+.bannedBox{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: fit-content;
+}
+
+.bannedBox img{
+  height: 50vh;
+
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.299);
+}

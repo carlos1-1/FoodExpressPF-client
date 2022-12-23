@@ -1,0 +1,57 @@
+
+
+.userDashConteiner{
+    margin-top: 10%;
+}
+
+.userDashConteiner h2{
+    text-align: center;
+}
+
+.infoTable{
+    width: 80%;
+    
+}
+
+.infoTable table button{
+    border-style: none;
+    background-color: initial;
+    text-decoration: underline;
+}
+
+.infoTable td{
+    width: 45%;
+    height: 45px;
+}
+
+.infoTable th{
+   width: 10%;
+}
+
+#tdBtn{
+    width: 10%;
+}
+
+.infoTable input{
+    max-height: 30px;
+    background-color: inherit;
+};
+
+.ContDash{
+    padding: 0;
+}
+
+@media screen and (max-width: 1200px){
+ 
+    .userDashConteiner h2{
+        text-align: center;
+    }
+
+    .ContDash{
+        width: 100%;
+    }
+
+    .infoTable{
+        padding: 50px;
+    }
+}

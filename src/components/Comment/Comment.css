@@ -1,0 +1,80 @@
+.carouselUno{
+  align-items: center;
+  text-align: center;
+  height: 8em;
+  
+}
+
+.comentCar {
+    padding: 2px;
+    color:white;
+    background-color:transparent;
+  
+  }
+
+.containerRev{
+    background-color: rgba(33, 35, 35, 0.819);
+    border-radius: 1em;
+    width: 30em;
+    height: 7em;
+   
+   
+    
+   
+}
+
+.visually-hidden{
+    color: white;
+  }
+
+.contenidoRev{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.nameRev{
+  color: rgb(245, 195, 104);
+  
+  text-align: start;
+  padding: 0px;
+  font-size: 0.8em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.quote{
+  height: 2em;
+  width: 2em;
+  color: white;
+  padding: 0;
+  position: relative;
+ left: 10em;
+ top:2em;
+ z-index: 1;
+}
+
+.comments{
+  color: aliceblue;
+}
+
+.indicadoresC{
+  position: relative;
+  bottom: 2em;
+}
+
+@media screen and (max-width: 1200px){
+  .containerRev{
+    width: 16em;  
+    position: relative;
+   left: 0.5em;
+   
+   
+}
+
+.quote{
+  position: relative;
+}
+}

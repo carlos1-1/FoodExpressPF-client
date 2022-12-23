@@ -1,0 +1,137 @@
+.about {
+    background-color: white;
+    background-size: cover;
+    margin: auto;
+    padding: 5em 0em 0 0em;
+    position:relative;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+   
+  }
+  
+  .imageAbout{
+    height: 34.375em;
+    width: 28.125em;
+    
+    margin-bottom: 3.75em;
+  }
+  
+  .about .container {
+    width: 83.75em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    padding-left: 0.125em;
+  }
+
+  .about p {
+    font-size: 1.8rem;
+  }
+  
+  
+  .aboutButton {
+      margin-top: 2em;
+      width: fit-content;
+      height: fit-content;
+      border-radius: 0.9375em;
+      border-width: 0;
+      padding: 0.625em 3.125em;
+      margin-left: 0em;
+      background-color: orange;
+      box-shadow: 0.625em 0.625em 0.9375em 0.3125em rgba(0, 0, 0, 0.555);
+      
+      font-size: 1.5em;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s;
+    }
+    
+    .aboutButton:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+      color: white;
+     }
+  
+  @media screen and (max-width:940px) {
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+  
+    .about .container {
+        width: 100%;
+    }
+  
+    .about .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+  
+    .about .container .col-2 {
+        padding: 0;
+    }
+  
+    .about .aboutButton  {
+        margin-bottom: 1rem;
+    }
+  }
+  
+  
+  .test{
+    color: white;
+    font-size: 3.125em;
+    margin-left: 2.5em;
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  
+  .button2 {
+    margin-top: 3em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.9375em;
+    border-width: 0;
+    padding: 0.625em 3.125em;
+    margin-top: 1.25em;
+    margin-left: 75em;
+    background-color: orange;
+    box-shadow: 0.625em 0.625em 0.9375em 0.3125em rgba(0, 0, 0, 0.555);
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .heroButton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+   }
+  
+   .quoteUno{
+   color: orange;
+   margin: 0.3125em 0.3125em;
+   }
+  
+   .aboutR{
+    font-size: 1.875em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: normal;
+    padding-top: 1.25em;
+    padding-bottom: 0.125em;
+   }
+  

@@ -1,0 +1,257 @@
+/* fonts para imagen principal (slogan) */
+@font-face {
+  font-family: Mistrully;
+  src: url("../../assets/fonts/Mistrully.ttf");
+}
+
+@font-face {
+  font-family: Buffalo;
+  src: url("../../assets/fonts/Buffalo.otf");
+}
+
+/* contenedor general landing */
+/* .landing{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+} */
+
+
+.landing {
+  background-color:transparent;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.landing::before {
+  content: '';
+  background: url('https://res.cloudinary.com/dowhfu3fj/image/upload/v1669349421/recipes/imgHero_gi1osg.png') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.landing .slogan {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  max-width: 1100px;
+  margin-left: 1em;
+  padding: 1rem ;
+}
+
+.landing .slogan p:first-child {
+  font-family: Mistrully;
+  text-shadow:5px 5px 5px grey ;
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.landing .slogan p:nth-child(2) {
+  font-family:cursive;
+  font-size: 2.1rem;
+  color: white;
+}
+
+.landing .slogan p:nth-child(3) {
+  font-family: cursive;
+  font-size: 2.1rem;
+  color: white;
+ 
+}
+
+
+.landing .slogan p:nth-child(4) {
+  font-family: cursive;
+  font-size: 2.1rem;
+  color: white;
+}
+
+.landing .button {
+  margin: 1rem 0;
+  
+  width:  fit-content;
+  background-color: orange;
+  border-radius: 0.9375em;
+  box-shadow: 0.625em 0.625em 0.9375em 0.3125em rgba(0, 0, 0, 0.555);
+  padding: 0.5em 3.1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.landing .button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+
+/* estilos navBar */
+
+.header {
+  position:absolute;
+  /* height: 90px; */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: .3s ease-in;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.header .nav-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  color: white;
+  padding: 0.3125em;
+  border-radius: 0.4em;
+  padding: 0.600em 0.4300em;
+  padding-top: 0em;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  font-size:1.5em;
+}
+
+.header .navbar img {
+  width: 250px;
+  height: auto;
+ 
+}
+
+.header .nav-menu {
+  display: flex;
+}
+
+.header .nav-item {
+  padding: 0.100rem;
+  font-weight: 500;
+}
+
+.header .nav-item a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid orange;
+}
+
+.hamburger {
+  display: none;
+}
+
+.sec2{
+  background-color: aliceblue;
+  position:relative;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  top: 0;
+  left: 0;  
+}
+
+.sec3{
+  background-image: linear-gradient(to top, #136282 0%, #394760 100%, #0a5390 100%, #3d9ae7 100%);
+  height: 40.625em;
+  position:relative;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  top: 0;
+  left: 0;
+}
+
+.ButtonLogin{
+  color: white;
+  padding: 0.3125em;
+  border-radius: 0.5em;
+  padding: 0.625em 0.9375em;
+  padding-top: 0em;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  font-size:1.5em;
+}
+
+.ButtonLogin{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: orange;
+}
+
+
+
+@media screen and (max-width:940px) {
+  .landing .slogan p:nth-child(3) {
+      font-size: 1.6rem;
+  }
+
+  .landing .slogan p:nth-child(4) {
+      font-size: 1.6rem;
+  }
+
+  .header {
+    max-width: 100%;
+    background-color: transparent;
+}
+
+.header .navbar {
+    max-width: 100%;
+}
+
+.hamburger {
+    display: block;
+}
+
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 90px;
+    flex-direction: column;
+    background-color: rgba(5, 80, 118, 0.92);
+    width: 100%;
+    height: 90vh;
+    z-index: 999;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.nav-menu.active {
+    left: 0;
+    text-decoration: none;
+}
+
+.nav-item {
+    margin: 1.5rem 0;
+}
+
+.header .navbar img {
+    width: 150px;
+}
+}
+
+

@@ -1,0 +1,262 @@
+
+
+
+.containerDetail {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dbepwtmru/image/upload/v1668552203/Swirly_pattern_wallpaper_lktlvs.jpg');
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    text-decoration: none;
+    padding: 1em;
+    
+   
+  
+}
+
+.subContainer{
+    background-color: rgba(43, 42, 40, 0.505);
+    border-radius: 2em;
+    height: 40rem;
+    width: 80rem ;
+    padding: 8px;
+    
+}
+
+
+
+.BackLink{
+    text-decoration: none;
+}
+
+.back{
+    width:  fit-content;
+    background-color: orange;
+    border-radius: 0.9375em;
+    box-shadow: 0.625em 0.625em 0.9375em 0.3125em rgba(0, 0, 0, 0.555);
+    padding: 0.5em 2em;
+    font-size: 0.80em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 45px;
+}
+  
+.back:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+}
+
+.conteinerImage{
+    border-radius: 5px;
+  object-fit: cover;
+    width: 80em;
+    padding: 0;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+
+.foodImage{
+    height: 18em;
+    width:90%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.containerInfo{
+    display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 1rem;
+  max-width: 1200px;
+  max-height: 100%; 
+  padding-left: 5%;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.activado {
+    color: rgb(78, 194, 0);
+    background-color: rgb(187, 255, 166);
+    border-radius: 10px;
+    border-color: rgb(78, 194, 0);
+    width: 5em;
+    padding: 4px 4px 4px;
+    margin: 7px;
+    font-size: medium;
+}
+
+.desactiviado {
+    color: rgb(194, 0, 0);
+    background-color: rgb(255, 166, 166);
+    border-radius: 10px;
+    font-size: medium;
+    width: 8em;
+    padding: 4px 4px 4px;
+    margin: 7px;
+}
+
+.containerInfo h2 {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 0;
+}
+
+.containerInfo p {
+    margin: 0.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Add{
+    margin-top: 0;
+    position: relative;
+    left: 25em;
+    bottom: 6.3em;
+    width:  fit-content;
+    background-color: orange;
+    border-radius: 0.9375em;
+    box-shadow: 0.625em 0.625em 0.9375em 0.3125em rgba(0, 0, 0, 0.555);
+    padding: 0.4em 1.5em;
+    font-size: 0.76em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+  
+}
+
+.Add:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+}
+
+.containerComment{
+   background-color:transparent;
+   color: azure;
+   border-radius: 15px;
+   width: 50em;
+   /* position: absolute; */
+   left: 15em;
+   top: 30em;
+}
+
+.cont{
+    padding: 0;
+    position: relative;
+    right: 20px;
+}
+
+
+
+@media screen and (max-width: 940px){
+.subContainer{
+    width: 22rem;
+    height: 150rem;
+}
+
+.containerDetail{
+    height: 160em;
+    width: 100%;
+}
+
+.containerComment{
+    position: relative;
+    left: 0;
+    top: 2em;
+    width: fit-content;
+    
+}
+
+
+
+.containerInfo{
+   flex-direction: column;
+  
+}
+
+/* .containerInfo p{
+    margin: 0;
+} */
+
+.conteinerImage{
+    width: 20em;
+}
+
+.Add{
+    align-items: center;
+    position: sticky;
+}
+
+}
+
+/* .carouselUno{
+    align-items: center;
+    text-align: center;
+    height: 8em;
+  }
+  
+.comentCar {
+      padding: 2px;
+      color:white;
+      background-color:transparent;
+    
+    }
+  
+.containerRev{
+      background-color: rgba(33, 35, 35, 0.819);
+      border-radius: 1em;
+      width: 30em;
+      height: 7em;
+      position: relative;
+      left:10em;
+      
+     
+}
+  
+.visually-hidden{
+      color: white;
+}
+  
+.contenidoRev{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.9em;
+}
+  
+.nameRev{
+    color: rgb(245, 195, 104);
+    
+    text-align: start;
+    padding: 0px;
+    font-size: 0.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+  
+  
+.quote{
+    height: 2em;
+    width: 2em;
+    color: white;
+    padding: 0;
+    position: relative;
+   left: 10em;
+   top:2em;
+   z-index: 1;
+  } */

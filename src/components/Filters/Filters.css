@@ -1,0 +1,138 @@
+.bacKfilters {
+  background-color: #f9f4e6;
+}
+
+.offert {
+  color: #321313;
+  display: grid;
+  align-self: center;
+}
+
+.searchBar_container{
+  background-color: #ffffff;
+}
+
+.menu-container {
+  display: none;
+}
+
+.menu-container.open {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 587px;
+}
+
+.filter-container {
+  border-radius: 10px;
+  margin: 5px;
+  height: 55px;
+  display: flex;
+  justify-content:center;
+}
+
+.containerGO {
+  display: flex;
+  justify-content: space-around;
+  background-size: cover;
+  align-content: center;
+  background-attachment: fixed;
+  margin: 1px;
+  padding: 1px
+}
+
+.type_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slct {
+  color: #321313;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 186, 58);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 2px;
+  font-size: 16px;
+  text-align: center;
+  width: 80%;
+  border-color: #F4991A;
+}
+
+.slct:hover {
+  background-color: rgb(255, 212, 133);
+  color: #321313;
+  transition: 0.8s;
+}
+
+
+.button1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 186, 58);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  height: fit-content;
+  line-height: 1.7;
+  padding: 0 10px;
+  margin: 5px 10px 10px 10px;
+  border-color: #F4991A;
+}
+
+
+.button1:hover {
+  background-color: rgb(255, 183, 49);
+  scale: 1.1;
+  transition: 0.8s;
+}
+
+
+.button23 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 186, 58);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+  font-size: 1em;
+  border-color: orange;
+}
+
+
+.button23:hover {
+  background-color: rgb(206, 135, 5);
+  scale: 1.1;
+  transition: 0.8s;
+}
+
+.form-control{
+  width: 600px;
+}
+
+.btn-primary {
+  background-color: orange;
+  border-color: rgba(233, 171, 0, 0.623);
+}
+
+.btn-primary:hover {
+  background-color: rgb(255, 192, 75);
+  border-color: rgba(0, 0, 0, 0.185);
+}
+
+.form-control {
+  border-radius: 10px;
+  width: 178px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-control:hover {
+  border-color: orange;
+}
+
+@media screen and (max-width:605px){
+  .menu-container.open{
+    max-width: 375px;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 20px;
+  }
+}

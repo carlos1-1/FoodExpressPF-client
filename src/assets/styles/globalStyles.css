@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  list-style:none;
+}
+
+body {
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

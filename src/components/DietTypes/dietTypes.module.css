@@ -1,0 +1,19 @@
+.button, .active{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.272);
+    background-color: rgba(255, 255, 255, 0.466);
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: .7em;
+    cursor: pointer;
+    padding:2px;
+    line-height: 1.6;
+}
+
+.button:hover{
+    box-shadow: 0 0 5px 0 gray ;
+}
+
+.active{
+    background-color: orange;
+}

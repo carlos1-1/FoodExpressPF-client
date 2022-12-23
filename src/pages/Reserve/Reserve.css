@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Mistrully;
+    src: url("../../assets/fonts/Mistrully.ttf");
+  }
+  
+  @font-face {
+    font-family: Buffalo;
+    src: url("../../assets/fonts/Buffalo.otf");
+  }
+
+.reserve_container{
+    background-color: #F2EAD3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.reserve_title{
+    padding-top: 10px;
+    font-size: 8vh;
+    text-align: center;
+    font-family: Buffalo;
+}
+
+.reserve_text{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.inputs_container{
+    width: 100%;
+    max-width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    flex:50%;
+    flex-wrap: wrap;
+}
+.reserve_decoration_image{
+    width: 500px;
+    height: 500px;
+}
+
+.inputsAndImage{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.Pagos{
+    display: flex;
+    justify-content: center;
+}
+.payment_method_inputPP{
+    display: none;
+}
+
+.form-check-labelPP {
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.reserve_inputs{
+    width: 330px;
+}
+  
+.form-check-labelPP:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+  
+.form-check-labelPP img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+  
+:checked + .form-check-labelPP {
+    border-color: transparent;
+}
+  
+:checked + .form-check-labelPP:before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+}
+  
+:checked + .form-check-labelPP img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+}
+
+@media (max-width: 1240px){
+    .reserve_decoration_image{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 900px){
+    .reserve_inputs{
+        width: 150px;
+    }
+    .inputsAndImage{
+        padding: 0px;
+        padding-left: 10px;
+        justify-content: start;
+    }
+    .reserve_decoration_image{
+        width: 215px;
+        height: 225px;
+    }
+}

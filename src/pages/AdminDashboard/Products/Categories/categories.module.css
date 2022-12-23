@@ -1,0 +1,13 @@
+.container{
+  column-gap: 20px;
+  margin-bottom: 50px;
+
+}
+
+.buttonBox{
+  margin: 20px 0;
+}
+
+.editBox{
+  margin: 10px 0;
+}

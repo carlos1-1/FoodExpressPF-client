@@ -1,0 +1,156 @@
+.phone{
+    color: azure;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+   
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 150px;
+    padding: 17px 0px;
+    /* margin-left: 100px; */
+    text-decoration: none;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    text-decoration: none;
+    margin-left: 2em;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 2.8em;
+    height: 2.8em;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color:#0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: black;
+    padding: 10px ;
+   margin-left: 31em;
+    color: white;
+
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+.dir{
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+   padding-left: 0;
+}
+
+.copy{
+    color: white;
+    text-align: center;
+}
+
+/* .frame {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+} */
+/* .frame iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: auto;
+        padding-right: 2em;
+        padding-left: 2em;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        
+    
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 250px;
+        text-decoration: none;
+        margin-left: 5em;
+    }
+
+
+    /* .pie-pagina .grupo-2{
+        width:100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        padding-right: 2em;
+        margin-left: 5em;
+    } */
+}
+
+.phone1{
+    color: aliceblue;
+    width: 15px;
+    height: 15px;
+}
+
+.im{
+    color: red;
+    text-decoration: none;
+}
+
+.direccion{
+    align-items: center;
+    /* padding: 1px; */
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

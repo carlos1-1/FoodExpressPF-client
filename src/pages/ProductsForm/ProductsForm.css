@@ -1,0 +1,36 @@
+.back {
+    /* background-color: rgb(255, 200, 137); */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-attachment: fixed;
+    gap: 20px;
+
+}
+
+.imag {
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 10px 10px 10px rgb(76, 81, 90);
+}
+
+.previs {
+    /* background-color: rgb(253, 175, 86); */
+    border: 10px;
+    align-content: center;
+    width: 45%;
+}
+
+.nameimgage {
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+
+
+.titleback {
+    background-color: rgb(255, 156, 43);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
