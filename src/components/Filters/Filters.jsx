@@ -50,6 +50,7 @@ function Filters({ menu }) {
   const onSubmitHandler = (e) => {
     e.preventDefault();
     dispatch(getByFilters(filterQueryParser(filters)))
+    
   }
 
   return (

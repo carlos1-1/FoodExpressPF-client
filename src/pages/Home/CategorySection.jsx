@@ -8,6 +8,7 @@ import s from './categorySection.module.css'
 const CategorySection = ({name, addHandler}) => {
   const allPlate = useSelector((state) => state.plates);
   const filterPlates = allPlate.filter(plate=>plate.category === name)
+ /* const filterPlates = allPlate*/
  
   const nameId =name.replace(/ /g, "")
 

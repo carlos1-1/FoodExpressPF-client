@@ -36,7 +36,63 @@ function Carting() {
   };
 
   return (
-    <>
+<>
+<NavBar Cart={Cart} />
+<div>
+  <h1 className="text text-center">Shopping Cart checkout</h1>
+  <div className="checkout_container">
+    <div>
+      <div>
+        <CheckoutTable />
+    
+        <div className="Pagos">
+          <div className="form-check">
+            <input
+              className="payment_method_inputPP"
+              type="radio"
+              name="flexRadioDefault"
+              id="PayPal"
+              value="1"
+              checked={buySelect == "1" ? true : false}
+              onChange={select}
+            />
+            <label className="form-check-labelPP" for="PayPal" value="PayPal">
+              <img
+                src="https://res.cloudinary.com/dbepwtmru/image/upload/v1669739509/paypalhoover_ojruhq.png"
+                width="100"
+                height="100"
+              />
+            </label>
+          </div>
+      
+        </div>
+        <div className="checkoutrow">
+          <div colSpan="5" className="checkout">
+            <div className="d-grid gap-2 col-6 mx-auto p-5">
+              <button
+                className="btn btn-primary"
+                type="button"
+                onClick={() => paypal()}
+              >
+                Checkout!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<br />
+</>
+  );
+}
+
+export default Carting;
+/*
+ <>
       <NavBar Cart={Cart} />
       <div>
         <h1 className="text text-center">Shopping Cart checkout</h1>
@@ -108,7 +164,4 @@ function Carting() {
       <br />
       <br />
     </>
-  );
-}
-
-export default Carting;
+*/

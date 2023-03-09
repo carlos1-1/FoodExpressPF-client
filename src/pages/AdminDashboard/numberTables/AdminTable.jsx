@@ -9,7 +9,7 @@ import getTables, { putTables } from '../../../redux/actions'
 export default function AdminTables(){
     const [input, setInput] = useState({}) 
     const dispatch = useDispatch()
-    const numberTables = useSelector((state) => state.tables);
+    const numberTables = 20
     
 
     useEffect(()=>{
